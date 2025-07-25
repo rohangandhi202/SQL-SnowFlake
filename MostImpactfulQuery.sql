@@ -1,0 +1,5 @@
+SELECT PLAYER, Team, POINTS, REBOUNDS, ASSISTS,
+       (POINTS + REBOUNDS + ASSISTS) AS Total_Impact
+FROM player_stat
+ORDER BY Total_Impact DESC
+LIMIT 10;
