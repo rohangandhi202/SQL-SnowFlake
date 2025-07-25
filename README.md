@@ -77,6 +77,7 @@ CREATE OR REPLACE TABLE player_stats (
     FOULS	FLOAT
     POINTS	FLOAT
 );
+```
 
 ### 3. Load the Data
 Used the load data wizard in snowflake to update the data to the table, PLAYER_STAT, in the NBA_STATS_DB database
